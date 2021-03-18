@@ -13,9 +13,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         addA();
+        addB();
     }
 
     private void addA() {
         Log.d("aaa", "add void a");
+    }
+
+    private void addB() {
+        Log.d("aaa", "add void b");
     }
 }
