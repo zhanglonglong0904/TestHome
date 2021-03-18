@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
         addA();
         addB();
+        addC();
     }
 
     private void addA() {
@@ -22,5 +23,9 @@ public class MainActivity extends AppCompatActivity {
 
     private void addB() {
         Log.d("aaa", "add void b");
+    }
+
+    private void addC() {
+        Log.d("aaa", "add void c");
     }
 }
